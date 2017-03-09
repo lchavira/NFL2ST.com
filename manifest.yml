@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: NFL S2T
+  host: NFL-S2T
+  disk_quota: 1024M
+  services:
+  - Speech to Text-su
